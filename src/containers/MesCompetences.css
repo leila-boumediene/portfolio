@@ -1,0 +1,37 @@
+.img {
+  height: 40px;
+  width: 60px;
+  object-fit: cover;
+  object-position: center;
+}
+.competence {
+  display: flex;
+  justify-content: space-between;
+}
+.nom {
+  color: #2a3044;
+}
+.bodytitle {
+  display: flex;
+  justify-content: center;
+  color: #2a3044;
+}
+.titlecomp {
+  display: flex;
+
+  margin: 40px;
+  font-size: x-large;
+}
+.cv {
+  height: 100%;
+  width: 900px;
+  object-fit: cover;
+  object-position: center;
+}
+.chevronicon {
+  margin-left: 30px;
+}
+.chevron {
+  color: #2a3044;
+  margin-bottom: 10px;
+}

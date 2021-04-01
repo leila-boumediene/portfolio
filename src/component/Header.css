@@ -1,0 +1,29 @@
+.header {
+  background: #ebebeb;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.emploi {
+  margin-left: 200px;
+}
+.photoHero {
+  height: 200px;
+}
+.logoinitial {
+  height: 50px;
+  width: 50px;
+}
+.entete {
+  display: flex;
+
+  flex-direction: column;
+  margin: 20px;
+}

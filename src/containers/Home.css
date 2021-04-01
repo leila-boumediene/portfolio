@@ -1,0 +1,77 @@
+.containt {
+  /* height: 1300px; */
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.lestitres {
+  display: flex;
+  justify-content: space-evenly;
+  flex: auto;
+  background: #ebebeb;
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
+}
+.quisuisje,
+.competences,
+.mesprojets,
+.monprofilinteresse {
+  color: #2a3044;
+  /* margin-top: 30px; */
+  display: flex;
+  margin: 30px;
+  font-family: cursive;
+  font-size: 17px;
+}
+.photoprofil {
+  display: flex;
+  justify-content: center;
+}
+
+/* .photo {
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 100%;
+  margin: 20px;
+} */
+.citations {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.citationA,
+.citationB,
+.citationC {
+  display: flex;
+  font-style: italic;
+  color: grey;
+  font-size: large;
+  text-align: justify;
+}
+
+.citationPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 400px;
+  margin-left: auto;
+}
+.citationA1,
+.citationB1,
+.citationC1 {
+  font-style: oblique;
+  color: gray;
+}
+
+.box1,
+.box2 {
+  width: 400px;
+  margin-top: 50px;
+}

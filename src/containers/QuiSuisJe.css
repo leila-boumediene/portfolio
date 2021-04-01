@@ -1,0 +1,40 @@
+.body {
+  /* background-color: #2a3044; */
+  height: 1300px;
+  width: 100%;
+}
+
+.apropos {
+  color: #2a3044;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+.bienvenue {
+  color: #2a3044;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+.introduction {
+  color: #2a3044;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+.presentation {
+  color: #2a3044;
+  margin: 40px;
+  text-align: justify;
+}
+.telechargement {
+  color: #2a3044;
+  margin: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.retour {
+  color: #2a3044;
+  margin: 40px;
+}
