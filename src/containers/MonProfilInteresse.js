@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+import "./MonProfilInteresse.css";
+import LinkedinLogo from "../images/logo-LinkedIn.png";
+import githubLogo from "../images/logo-github.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MonProfilInteresse = () => {
@@ -10,7 +13,16 @@ const MonProfilInteresse = () => {
           <FontAwesomeIcon icon="chevron-circle-left" className="chevron" />
         </div>
       </Link>
-      <div>Mon profil vous interesse ?</div>
+      <div className="texte">Vous souhaitez me joindre ?</div>
+
+      <div className="icons">
+        <a href="https://www.linkedin.com/in/leila-boumediene">
+          <img src={LinkedinLogo} alt="" className="linkedin" />
+        </a>
+        <a href="https://github.com/">
+          <img src={githubLogo} alt="" className="github" />
+        </a>
+      </div>
     </>
   );
 };

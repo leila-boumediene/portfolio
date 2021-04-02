@@ -1,6 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-import Photo from "../images/20210331_142058.jpg";
+// import Photo from "../images/20210331_142058.jpg";
+import ornement from "../images/ornement.png";
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
             <div>Mon profil vous intéresse ?</div>
           </Link>
         </div>
+      </div>
+      <div className="ornement">
+        <img src={ornement} alt="" className="ornementBar" />
       </div>
       <div className="citations">
         <div className="box1">
@@ -46,6 +50,9 @@ const Home = () => {
           </p>
           <p className="citationC1">Alan Jay Perlis</p>
         </div>
+      </div>
+      <div className="ornement">
+        <img src={ornement} alt="" className="ornementBar" />
       </div>
     </>
   );

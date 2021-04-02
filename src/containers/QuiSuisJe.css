@@ -3,29 +3,43 @@
   height: 1300px;
   width: 100%;
 }
+.corps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .apropos {
   color: #2a3044;
   display: flex;
   justify-content: center;
   font-size: xx-large;
+  font-style: oblique;
+  font-family: cursive;
+  /* margin-top: 50px; */
 }
 .bienvenue {
   color: #2a3044;
   margin: 40px;
   display: flex;
   justify-content: center;
+  font-style: italic;
+  flex-direction: column;
+  text-align: center;
 }
 .introduction {
   color: #2a3044;
-  margin: 40px;
+  /* margin: 20px; */
   display: flex;
   justify-content: center;
+  font-style: italic;
 }
 .presentation {
   color: #2a3044;
-  margin: 40px;
+  /* margin: 40px; */
   text-align: justify;
+  width: 500px;
+  font-style: italic;
 }
 .telechargement {
   color: #2a3044;
@@ -37,4 +51,20 @@
 .retour {
   color: #2a3044;
   margin: 40px;
+}
+.ornementBar {
+  height: 60px;
+}
+.ornement {
+  display: flex;
+  justify-content: center;
+}
+.signature {
+  display: flex;
+  width: 500px;
+
+  justify-content: flex-end;
+  font-style: italic;
+}
+.signatureNom {
 }

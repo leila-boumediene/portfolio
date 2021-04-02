@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin,
+.github {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.texte {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: x-large;
+}
