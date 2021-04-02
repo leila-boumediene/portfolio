@@ -1,6 +1,6 @@
 import "./MesCompetences.css";
 import { Link } from "react-router-dom";
-import CV from "../images/Capture d’écran 2021-03-31 à 14.34.46.png";
+import CV from "../images/cv.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MesCompetences = () => {
