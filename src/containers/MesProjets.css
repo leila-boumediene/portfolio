@@ -1,0 +1,86 @@
+.vintedpicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: inherit;
+}
+.logoVinted {
+  width: 150px;
+}
+.vinted {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.description {
+  width: 400px;
+  font-family: serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #01aeb5;
+  margin-left: 25px;
+  margin-top: 30px;
+  text-align: justify;
+}
+.afaire {
+  display: flex;
+  margin-top: 30px;
+}
+.logomarvel {
+  width: 150px;
+}
+.marvel {
+  margin: 40px;
+}
+.marvelimage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: inherit;
+  margin-top: 200px;
+}
+.conseilmarvel {
+  width: 400px;
+  margin-left: 25px;
+  margin-top: 30px;
+  text-align: justify;
+}
+.textmarvel {
+  width: 400px;
+  font-family: serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #ed1c24;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.logodeliveroo {
+  width: 150px;
+}
+.deliverooImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: inherit;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.consignedeliveroo {
+  display: flex;
+}
+.textdeliveroo {
+  width: 400px;
+  font-family: serif;
+  font-size: 13px;
+  font-style: italic;
+  color: #00ccbd;
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-top: 70px;
+}

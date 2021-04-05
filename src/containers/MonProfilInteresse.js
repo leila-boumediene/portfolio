@@ -8,18 +8,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MonProfilInteresse = () => {
   return (
     <>
-      <Link to="/">
-        <div className="chevronicon">
+      <div className="chevronicon">
+        <Link to="/">
           <FontAwesomeIcon icon="chevron-circle-left" className="chevron" />
-        </div>
-      </Link>
-      <div className="texte">Vous souhaitez me joindre ?</div>
+        </Link>
+      </div>
+
+      <div className="texte">
+        Vous souhaitez me joindre ?<p className="mail">lila.bdm@gmail.com</p>
+        <p className="phone">06 68 59 21 23</p>
+      </div>
 
       <div className="icons">
         <a href="https://www.linkedin.com/in/leila-boumediene">
           <img src={LinkedinLogo} alt="" className="linkedin" />
         </a>
-        <a href="https://github.com/">
+        <a href="https://github.com/leila-boumediene">
           <img src={githubLogo} alt="" className="github" />
         </a>
       </div>
