@@ -51,7 +51,7 @@
 .citationC {
   display: flex;
   font-style: italic;
-  color: grey;
+  /* color: grey; */
   font-size: large;
   text-align: justify;
 }
@@ -67,7 +67,7 @@
 .citationB1,
 .citationC1 {
   font-style: oblique;
-  color: gray;
+  /* color: gray; */
 }
 
 .box1,

@@ -17,11 +17,12 @@ const MesProjets = () => {
           <FontAwesomeIcon icon="chevron-circle-left" className="chevron" />
         </div>
       </Link>
-      <div className="vinted">
-        <img src={LogoVinted} alt="" className="logoVinted" />
-        <div className="afaire">
-          <img src={Vinted} alt="" className="vintedpicture" />
-          <p className="description">
+      <div className="emplacement">
+        <div className="vinted">
+          <img src={LogoVinted} alt="" className="logoVinted" />
+          <div className="afaire">
+            <img src={Vinted} alt="" className="vintedpicture" />
+            {/* <p className="description">
             <p>Les consignes : </p>
             <p>Mettre en place React Router,</p>
             <p>
@@ -39,14 +40,14 @@ const MesProjets = () => {
               Réalisez l'intégration HTML (de la page Home dans un premier
               temps), Réalisez le CSS
             </p>
-          </p>
+          </p> */}
+          </div>
         </div>
-      </div>
-      <div className="marvel">
-        <img src={Marvel} alt="" className="logomarvel" />
-        <div className="afaire">
-          <img src={MarvelImage} alt="" className="marvelimage" />
-          <div className="consignemarvel">
+        <div className="marvel">
+          <img src={Marvel} alt="" className="logomarvel" />
+          <div className="afaire">
+            <img src={MarvelImage} alt="" className="marvelimage" />
+            {/* <div className="consignemarvel">
             <p className="textmarvel">
               Créez un site en React (avec un routeur) qui contiendra en haut :
               le logo MARVEL et un menu (personnages, comics, favoris),
@@ -84,20 +85,21 @@ const MesProjets = () => {
               Vous hébergerez votre frontend sur Netlify et votre backend sur
               Heroku.
             </p>
+          </div> */}
           </div>
         </div>
-      </div>
-      <div>
-        <img src={LogoDeliveroo} alt="" className="logodeliveroo" />
-        <div className="consignedeliveroo">
-          <img src={DeliverooImage} alt="" className="deliverooImage" />
-          <div className="textdeliveroo">
+        <div className="deliveroo">
+          <img src={LogoDeliveroo} alt="" className="logodeliveroo" />
+          <div className="consignedeliveroo">
+            <img src={DeliverooImage} alt="" className="deliverooImage" />
+            {/* <div className="textdeliveroo">
             <p> Le code source devra être hébergé sur GitHub</p>
             <p>Vous devrez créer un projet React et l'héberger sur Netlify</p>
             <p>
               Vous devrez récupérer les données de votre API grâce à useEffect
               et à Axios
             </p>
+          </div> */}
           </div>
         </div>
       </div>

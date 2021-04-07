@@ -1,6 +1,6 @@
 import "./MesCompetences.css";
 import { Link } from "react-router-dom";
-import CV from "../images/CV.jpg";
+import CV from "../images/cv.page.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MesCompetences = () => {

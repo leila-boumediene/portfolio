@@ -1,4 +1,6 @@
-.vintedpicture {
+.vintedpicture,
+.marvelimage,
+.deliverooImage {
   height: 200px;
   width: 200px;
   border-radius: 100%;
@@ -6,10 +8,14 @@
   object-position: center;
   margin-top: inherit;
 }
-.logoVinted {
+.logoVinted,
+.logomarvel,
+.logodeliveroo {
   width: 150px;
 }
-.vinted {
+.vinted,
+.marvel,
+.deliveroo {
   display: flex;
   flex-direction: column;
   margin: 40px;
@@ -28,21 +34,11 @@
   display: flex;
   margin-top: 30px;
 }
-.logomarvel {
-  width: 150px;
-}
-.marvel {
+
+/* .marvel {
   margin: 40px;
-}
-.marvelimage {
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  object-fit: cover;
-  object-position: center;
-  margin-top: inherit;
-  margin-top: 200px;
-}
+} */
+
 .conseilmarvel {
   width: 400px;
   margin-left: 25px;
@@ -58,21 +54,10 @@
   margin-left: 25px;
   margin-top: 30px;
 }
-.logodeliveroo {
-  width: 150px;
-}
-.deliverooImage {
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  object-fit: cover;
-  object-position: center;
-  margin-top: inherit;
-  margin-top: 20px;
-  margin-left: 40px;
-}
+
 .consignedeliveroo {
   display: flex;
+  margin-top: 30px;
 }
 .textdeliveroo {
   width: 400px;
@@ -83,4 +68,8 @@
   margin-left: 25px;
   margin-top: 30px;
   margin-top: 70px;
+}
+.emplacement {
+  display: flex;
+  justify-content: space-between;
 }

@@ -17,14 +17,28 @@ const QuiSuisJe = () => {
         <p className="bienvenue">
           Bonjour et bienvenue
           <p className="presentation">
-            Après une première partie de carrière à des postes tels que
-            assistante de direction et gestionnaire RH, j'ai souhaité me
-            réorienter vers un domaine pour lequel je me suis découvert une
-            réelle passion, le développement web et Mobile. J'ai donc débuté une
-            formation avec le Reacteur, un Boot camp très intense qui m'a permis
-            d'acquérir des bases solides et fait naître une grande motivation et
-            détermination dans l'apprentissage du code, que je souhaiterais
-            développer lors d'un stage.
+            <p>
+              {" "}
+              Après une première partie de carrière consacrée à la gestion et
+              plus particulièrement à celle des ressources humaines, j'ai
+              souhaité m'envoler en me réorientant vers un domaine pour lequel
+              je me suis découverte une réelle et vive passion : le
+              développement Web et Mobile.{" "}
+            </p>
+            <p>
+              {" "}
+              Bien déterminée à atteindre mes objectifs, j'ai donc débuté une
+              formation auprès du Reacteur, un Boot Camp très intense qui m'a
+              permis d'acquérir des bases solides en fait naître pour
+              l'apprentissage du codage informatique, une profonde motivation.{" "}
+            </p>
+            <p>
+              {" "}
+              De nature créative, curieuse et consciencieuse, j'aimerais
+              développer ma programmation de manière concrète au cours d'un
+              stage professionnalisant.
+            </p>
+
             <div className="signature">
               <p className="signatureNom">Leila</p>
             </div>
