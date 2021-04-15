@@ -1,6 +1,7 @@
 .vintedpicture,
 .marvelimage,
-.deliverooImage {
+.deliverooImage,
+.todilistimage {
   height: 200px;
   width: 200px;
   border-radius: 100%;
@@ -8,14 +9,17 @@
   object-position: center;
   margin-top: inherit;
 }
+
 .logoVinted,
 .logomarvel,
-.logodeliveroo {
+.logodeliveroo,
+.todologo {
   width: 150px;
 }
 .vinted,
 .marvel,
-.deliveroo {
+.deliveroo,
+.todologo {
   display: flex;
   flex-direction: column;
   margin: 40px;
@@ -71,5 +75,5 @@
 }
 .emplacement {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }

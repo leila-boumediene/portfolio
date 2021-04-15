@@ -29,8 +29,8 @@ const QuiSuisJe = () => {
               {" "}
               Bien déterminée à atteindre mes objectifs, j'ai donc débuté une
               formation auprès du Reacteur, un Boot Camp très intense qui m'a
-              permis d'acquérir des bases solides en fait naître pour
-              l'apprentissage du codage informatique, une profonde motivation.{" "}
+              permis d'acquérir des bases et fait naître pour l'apprentissage du
+              codage informatique, une profonde motivation.{" "}
             </p>
             <p>
               {" "}

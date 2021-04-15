@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 import Vinted from "../images/vinted.png";
 import LogoVinted from "../images/Vinted_logo.png";
-import Marvel from "../images/Marvel_Logo.svg";
-import MarvelImage from "../images/super-heros-marvel-min.jpg";
-import LogoDeliveroo from "../images/Deliveroo_logo.svg.png";
-import DeliverooImage from "../images/deliveroo.png";
+import TodolistTitre from "../images/todolisttitre.png";
+// import Marvel from "../images/Marvel_Logo.svg";
+// import MarvelImage from "../images/super-heros-marvel-min.jpg";
+import ToDoList from "../images/todolist.png";
+// import LogoDeliveroo from "../images/Deliveroo_logo.svg.png";
+// import DeliverooImage from "../images/deliveroo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MesProjets = () => {
@@ -21,7 +23,9 @@ const MesProjets = () => {
         <div className="vinted">
           <img src={LogoVinted} alt="" className="logoVinted" />
           <div className="afaire">
-            <img src={Vinted} alt="" className="vintedpicture" />
+            <a href="https://distracted-kilby-659d86.netlify.app/">
+              <img src={Vinted} alt="" className="vintedpicture" />
+            </a>
             {/* <p className="description">
             <p>Les consignes : </p>
             <p>Mettre en place React Router,</p>
@@ -43,11 +47,19 @@ const MesProjets = () => {
           </p> */}
           </div>
         </div>
-        <div className="marvel">
+        <div className="todolist">
+          <img src={TodolistTitre} alt="" className="todologo" />
+          <div className="afaire">
+            <a href="https://condescending-kepler-404937.netlify.app/">
+              <img src={ToDoList} alt="" className="todilistimage" />
+            </a>
+          </div>
+        </div>
+        {/* <div className="marvel">
           <img src={Marvel} alt="" className="logomarvel" />
           <div className="afaire">
-            <img src={MarvelImage} alt="" className="marvelimage" />
-            {/* <div className="consignemarvel">
+            <img src={MarvelImage} alt="" className="marvelimage" /> */}
+        {/* <div className="consignemarvel">
             <p className="textmarvel">
               Créez un site en React (avec un routeur) qui contiendra en haut :
               le logo MARVEL et un menu (personnages, comics, favoris),
@@ -86,13 +98,13 @@ const MesProjets = () => {
               Heroku.
             </p>
           </div> */}
-          </div>
-        </div>
-        <div className="deliveroo">
+        {/* </div>
+        </div> */}
+        {/* <div className="deliveroo">
           <img src={LogoDeliveroo} alt="" className="logodeliveroo" />
           <div className="consignedeliveroo">
-            <img src={DeliverooImage} alt="" className="deliverooImage" />
-            {/* <div className="textdeliveroo">
+            <img src={DeliverooImage} alt="" className="deliverooImage" /> */}
+        {/* <div className="textdeliveroo">
             <p> Le code source devra être hébergé sur GitHub</p>
             <p>Vous devrez créer un projet React et l'héberger sur Netlify</p>
             <p>
@@ -100,8 +112,8 @@ const MesProjets = () => {
               et à Axios
             </p>
           </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </div>
     </>
   );

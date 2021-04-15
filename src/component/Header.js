@@ -5,13 +5,15 @@ import Logo from "../images/logo.png";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="entete">
-        <img src={Logo} alt="" className="logoinitial" />
-        <p className="emploi">Développeur Web et Mobile</p>
+    <>
+      <div className="header">
+        <div className="entete">
+          <img src={Logo} alt="" className="logoinitial" />
+          <p className="emploi">Développeur Web et Mobile</p>
+        </div>
+        <img src={photoHero} alt="" className="photoHero" />
       </div>
-      <img src={photoHero} alt="" className="photoHero" />
-    </div>
+    </>
   );
 };
 
