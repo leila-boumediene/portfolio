@@ -34,7 +34,6 @@
   */
 /* Rules */
  .header {
-    background-color: brown;
     width: 100%;
     font-size: 12px;
   }
@@ -67,7 +66,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: pink;
   }
   .emploi {
     font-size: 30px;
@@ -98,7 +96,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 26px;
@@ -128,7 +125,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: coral;
   }
 }
 /* Small devices (landscape phones, 576px and up)*/
@@ -155,7 +151,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 18px;
@@ -184,7 +179,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 18px;
@@ -213,7 +207,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 18px;
@@ -242,7 +235,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 16px;
@@ -271,7 +263,6 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    background-color: lightblue;
   }
   .emploi {
     font-size: 12px;

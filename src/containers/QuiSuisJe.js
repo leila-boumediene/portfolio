@@ -36,7 +36,7 @@ const QuiSuisJe = () => {
               {" "}
               De nature créative, curieuse et consciencieuse, j'aimerais
               développer ma programmation de manière concrète au cours d'un
-              stage professionnalisant.
+              stage ou bien d'un CDD/CDI.
             </p>
 
             <div className="signature">
