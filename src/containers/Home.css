@@ -200,3 +200,91 @@
     margin-top: 40px;
   }
 }
+@media (min-width: 350px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 6px;
+  }
+  .citationA,
+  .citationB,
+  .citationC {
+    display: flex;
+    font-style: italic;
+    font-size: 12px;
+    text-align: justify;
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+    font-size: 12px;
+  }
+  .citationPosition {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* margin-left: auto; */
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+  }
+
+  .box1,
+  .box2 {
+    width: 200px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 250px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 10px;
+    font-family: cursive;
+    font-size: 6px;
+  }
+  .citationA,
+  .citationB,
+  .citationC {
+    display: flex;
+    font-style: italic;
+    font-size: 12px;
+    text-align: justify;
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+    font-size: 12px;
+  }
+  .citationPosition {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    /* margin-left: auto; */
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+  }
+
+  .box1,
+  .box2 {
+    width: 150px;
+    margin-top: 40px;
+  }
+}
