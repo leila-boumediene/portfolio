@@ -1,1 +1,68 @@
 /* Other rules */
+.container {
+  margin: 0;
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Rules */
+  .header {
+    background-color: red;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    margin: auto;
+    background-color: pink;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Rules */
+  .header {
+    background-color: green;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Rules */
+  .header {
+    background-color: brown;
+  }
+  .logoinitial {
+    height: 25px;
+    width: 25px;
+  }
+  .photoHero {
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Rules */
+  .logoinitial {
+    height: 20px;
+    width: 20px;
+  }
+  .photoHero {
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .header {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: red;
+  }
+}

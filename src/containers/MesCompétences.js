@@ -7,11 +7,13 @@ const MesCompetences = () => {
   return (
     <>
       <div className="body">
-        <Link to="/">
-          <div className="chevronicon">
+        <div className="chevronicon">
+          <Link to="/">
             <FontAwesomeIcon icon="chevron-circle-left" className="chevron" />
-          </div>
-        </Link>
+          </Link>
+        </div>
+
+        {/* <a href="/src/images/cv.png">Télécharger mon cv</a> */}
         <div className="bodytitle">
           <img className="cv" src={CV} alt="" />
         </div>

@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header">
         <div className="entete">
           <img src={Logo} alt="" className="logoinitial" />
-          <p className="emploi">Développeur Web et Mobile</p>
+          <p className="emploi">Développeuse Web et Mobile</p>
         </div>
         <img src={photoHero} alt="" className="photoHero" />
       </div>

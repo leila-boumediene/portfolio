@@ -74,3 +74,108 @@
   width: 400px;
   margin-top: 50px;
 }
+@media (min-width: 645px) and (max-width: 709px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 14px;
+  }
+}
+@media (min-width: 594px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 12px;
+  }
+}
+@media (min-width: 556px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 10px;
+  }
+}
+@media (min-width: 554px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 10px;
+  }
+}
+@media (min-width: 550px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 10px;
+  }
+}
+@media (min-width: 540px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 10px;
+  }
+}
+@media (min-width: 414px) and (max-width: 645px) {
+  /* Rules */
+  .quisuisje,
+  .competences,
+  .mesprojets,
+  .monprofilinteresse {
+    color: #2a3044;
+    display: flex;
+    margin: 30px;
+    font-family: cursive;
+    font-size: 8px;
+  }
+  .citationA,
+  .citationB,
+  .citationC {
+    display: flex;
+    font-style: italic;
+    font-size: 12px;
+    text-align: justify;
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+    font-size: 12px;
+  }
+}
