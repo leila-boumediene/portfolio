@@ -259,13 +259,13 @@
     justify-content: center;
     align-items: center;
     color: black;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     flex: 1;
   }
   .emploi {
-    font-size: 12px;
-    margin-left: 150px;
+    font-size: 10px;
+    margin-left: 130px;
   }
 }

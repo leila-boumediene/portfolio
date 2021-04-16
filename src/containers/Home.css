@@ -74,6 +74,9 @@
   width: 400px;
   margin-top: 50px;
 }
+
+/* RESPONSIVE */
+
 @media (min-width: 645px) and (max-width: 709px) {
   /* Rules */
   .quisuisje,
@@ -160,9 +163,9 @@
   .monprofilinteresse {
     color: #2a3044;
     display: flex;
-    margin: 30px;
+    margin: 20px;
     font-family: cursive;
-    font-size: 8px;
+    font-size: 6px;
   }
   .citationA,
   .citationB,
@@ -177,5 +180,23 @@
   .citationC1 {
     font-style: oblique;
     font-size: 12px;
+  }
+  .citationPosition {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    margin-left: auto;
+  }
+  .citationA1,
+  .citationB1,
+  .citationC1 {
+    font-style: oblique;
+  }
+
+  .box1,
+  .box2 {
+    width: 300px;
+    margin-top: 40px;
   }
 }

@@ -36,3 +36,105 @@
   /* margin-bottom: 10px; */
   height: fit-content;
 }
+
+/* RESPONSIVE */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 818px) and (max-width: 1024px) {
+  */
+/* Rules */
+.cv {
+    height: 100%;
+    width: 900px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 760px) and (max-width: 818px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 800px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 645px) and (max-width: 761px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 700px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 645px) and (max-width: 709px) {
+  /* Rules */
+
+  .cv {
+    height: 100%;
+    width: 650px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 645px) and (max-width: 660px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 594px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 560px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 556px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 550px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 554px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 550px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 540px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 530px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media (min-width: 414px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
