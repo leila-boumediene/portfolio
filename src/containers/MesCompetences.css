@@ -138,3 +138,23 @@
     object-position: center;
   }
 }
+
+@media (min-width: 350px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 320px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 645px) {
+  /* Rules */
+  .cv {
+    height: 100%;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
