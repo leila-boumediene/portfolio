@@ -1,27 +1,11 @@
 import "./Home.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import Ecran from "../images/ecran.png";
 import ornement from "../images/ornement.png";
 
 const Home = () => {
   return (
     <>
-      <div className="containt">
-        <div className="lestitres">
-          <Link to="/quisuisje" className="quisuisje">
-            <div>Qui suis-je ?</div>
-          </Link>
-          <Link to="/mescompetences" className="competences">
-            <div>Mes compétences</div>
-          </Link>
-          <Link to="/mesprojets" className="mesprojets">
-            <div>Mes projets</div>
-          </Link>
-          <Link to="/monprofilinteresse" className="monprofilinteresse">
-            <div>Mon profil vous intéresse ?</div>
-          </Link>
-        </div>
-      </div>
       <div className="ornement">
         <img src={ornement} alt="" className="ornementBar" />
       </div>

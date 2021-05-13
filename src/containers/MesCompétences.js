@@ -12,7 +12,11 @@ const MesCompetences = () => {
             <FontAwesomeIcon icon="chevron-circle-left" className="chevron" />
           </Link>
         </div>
-
+        <div>
+          <a href="/public/CV.LB.pdf" target="_blank">
+            Télécharger CV
+          </a>
+        </div>
         {/* <a href="/src/images/cv.png">Télécharger mon cv</a> */}
         <div className="bodytitle">
           <img className="cv" src={CV} alt="" />
